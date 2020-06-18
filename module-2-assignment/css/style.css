@@ -84,7 +84,7 @@
      width: 75%;
   }
   .col-md-10{
-     width: 83.33%%
+     width: 83.33%;
   }
   .col-md-11{
      width: 91.66%;
@@ -129,7 +129,7 @@
      width: 75%;
   }
   .col-lg-10{
-     width: 83.33%%
+     width: 83.33%
   }
   .col-lg-11{
      width: 91.66%;
@@ -140,7 +140,7 @@
 }
 
 p, h1, h2{
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 section{
@@ -153,9 +153,11 @@ section > h2{
   margin-top: 0px;
   top: 0px;
   right: 0px;
-  font-size: 40px;
+  font-size: 125%;
   width: 200px;
   text-align: center;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
 section > p{
@@ -168,32 +170,25 @@ div > h1{
   font-size: 175%;
 }
 
-h2{
-  font-size: 125%;
-}
-
-section, section >h2{
+section{
   border: 1px solid black;
-}
-.row{
-
 }
 
 #section1{
-  background-color: #00E1EF;
+  background-color: Gray;
 }
 #section2{
-  background-color: #00E1FF;
+  background-color: Gray;
 }
 #section3{
-  background-color: #80D7FF;
+  background-color: Gray;
 }
 #section1 > h2{
-  background-color: #FF8880
+  background-color: #FF9999;
 }
 #section2 > h2{
-  background-color: #FF80AA;
+  background-color: #C80404;
 }
 #section3 > h2{
-  background-color: #EC80FF;
+  background-color: #FABD05;
 }
