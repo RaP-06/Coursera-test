@@ -84,7 +84,7 @@
      width: 75%;
   }
   .col-md-10{
-     width: 83.33%;
+     width: 83.33%%
   }
   .col-md-11{
      width: 91.66%;
@@ -129,7 +129,7 @@
      width: 75%;
   }
   .col-lg-10{
-     width: 83.33%;
+     width: 83.33%%
   }
   .col-lg-11{
      width: 91.66%;
@@ -153,6 +153,7 @@ section > h2{
   margin-top: 0px;
   top: 0px;
   right: 0px;
+  font-size: 40px;
   width: 200px;
   text-align: center;
 }
